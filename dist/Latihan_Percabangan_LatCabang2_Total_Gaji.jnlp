@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Latihan_Percabangan_LatCabang2_Total_Gaji.jnlp">
+  <information>
+    <title>Latihan_Percabangan_LatCabang2_Total_Gaji</title>
+    <vendor>mariq</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Latihan_Percabangan_LatCabang2_Total_Gaji.jar" size="7146" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="latihan_percabangan_latcabang2_total_gaji.Main_Class.Latihan_Percabangan_LatCabang2_Total_Gaji"  name="Latihan_Percabangan_LatCabang2_Total_Gaji" />
+  <update check="always"/>
+</jnlp>

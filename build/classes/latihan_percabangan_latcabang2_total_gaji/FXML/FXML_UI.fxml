@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="763.0" prefWidth="390.0" style="-fx-background-color: Gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihan_percabangan_latcabang2_total_gaji.Controller.FXML_UIController">
+     <children>
+      <Label layoutX="12.0" layoutY="95.0" text="Lama Berkerja">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font></Label>
+      <Label layoutX="10.0" layoutY="162.0" text="Departemen">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font></Label>
+      <Label layoutX="13.0" layoutY="222.0" text="Jabatan">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font></Label>
+      <Label layoutX="17.0" layoutY="340.0" text="Golongan">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="591.0" text="Total Gaji">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font></Label>
+      <TextField fx:id="txtlama" layoutX="150.0" layoutY="96.0" prefHeight="26.0" prefWidth="178.0" style="-fx-cursor: text;" />
+      <TextField fx:id="txttotal" editable="false" layoutX="156.0" layoutY="591.0" prefHeight="26.0" prefWidth="178.0" style="-fx-cursor: none;" />
+      <Button fx:id="btnhitung" layoutX="16.0" layoutY="666.0" mnemonicParsing="false" onAction="#hitungklik" style="-fx-cursor: hand; -fx-background-color: olive;" text="Hitung" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnhapus" layoutX="148.0" layoutY="719.0" mnemonicParsing="false" onAction="#hapusklik" style="-fx-cursor: Hand; -fx-background-color: orange;" text="Hapus" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="btnkeluar" layoutX="279.0" layoutY="664.0" mnemonicParsing="false" onAction="#keluarklik" style="-fx-cursor: Hand; -fx-background-color: Red;" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="16.0" />
+         </font></Button>
+      <ComboBox fx:id="cmbdepartemen" layoutX="151.0" layoutY="163.0" prefHeight="26.0" prefWidth="178.0" style="-fx-cursor: hand;" />
+      <ComboBox fx:id="chbjabatan" layoutX="148.0" layoutY="225.0" prefHeight="26.0" prefWidth="184.0" style="-fx-cursor: hand;" />
+      <ListView fx:id="lstgolongan" layoutX="154.0" layoutY="288.0" prefHeight="104.0" prefWidth="178.0" style="-fx-cursor: hand;" />
+      <Label layoutX="52.0" layoutY="21.0" text="Penghitung Total Gaji">
+         <font>
+            <Font name="MV Boli" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="466.0" text="Domisili">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lstdomisili" layoutX="154.0" layoutY="428.0" prefHeight="104.0" prefWidth="178.0" style="-fx-cursor: hand;" />
+      <Separator layoutX="1.0" layoutY="565.0" prefHeight="3.0" prefWidth="368.0" style="-fx-background-color: gold;" />
+      <Separator layoutX="-1.0" layoutY="644.0" prefHeight="3.0" prefWidth="368.0" style="-fx-background-color: gold;" />
+      <Label layoutX="337.0" layoutY="94.0" text="Tahun">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
